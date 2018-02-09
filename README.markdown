@@ -1,3 +1,9 @@
+**IMPORTANT:** this current version of jsbin (v4.x.x) is no longer actively maintained and the new version of jsbin (v5) is currently in active development. This means that pretty much all the docs in this repo will be soon out of date. Please be warned ❤️
+
+☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️
+
+---
+
 # JS Bin
 
 JS Bin is an open source collaborative web development debugging tool.

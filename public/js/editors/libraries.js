@@ -423,7 +423,11 @@ var libraries = [
   },
   {
     'url': 'https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.16/vue.js',
-    'label': 'Vue.js',
+    'label': 'Vue.js 1.0.16',
+  },
+  {
+    'url': 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js',
+    'label': 'Vue.js 2.0.3',
   },
   {
     'url': 'http://cdn.ractivejs.org/latest/ractive.js',
@@ -643,9 +647,9 @@ var libraries = [
   },
   {
     'url':[
-      'https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js'
+      'https://cdnjs.cloudflare.com/ajax/libs/three.js/r82/three.min.js'
     ],
-    'label': 'Three.js r72'
+    'label': 'Three.js r82'
   },
   {
     'url':[
@@ -680,10 +684,10 @@ var libraries = [
     'url': {
       'url': 'https://openui5.hana.ondemand.com/resources/sap-ui-core.js',
       'id': 'sap-ui-bootstrap',
-      'data-sap-ui-theme': 'sap_bluecrystal',
+      'data-sap-ui-theme': 'sap_belize',
       'data-sap-ui-libs': 'sap.m'
     },
-    'label': 'OpenUI5 latest (Mobile BlueCrystal)'
+    'label': 'OpenUI5 CDN (belize Theme, mobile library)'
   },
   {
     'url': 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.7/TweenMax.min.js',
@@ -695,10 +699,10 @@ var libraries = [
   },
   {
     'url': [
-      '//vjs.zencdn.net/5.6/video-js.css',
-      '//vjs.zencdn.net/5.6/video.js'
+      '//vjs.zencdn.net/5.11/video-js.css',
+      '//vjs.zencdn.net/5.11/video.js'
     ],
-    'label': 'Video.js 5.6.x'
+    'label': 'Video.js 5.11.x'
   },
   {
     'url': [
@@ -725,19 +729,19 @@ var libraries = [
     'label': 'OpenTok v2.x (latest)'
   },
   {
-    'url': 'https://cdn.jsdelivr.net/riot/2.3/riot+compiler.min.js',
-    'label': 'Riot + Compiler (latest 2.3.x)'
+    'url': 'https://cdn.jsdelivr.net/riot/2.6/riot+compiler.min.js',
+    'label': 'Riot + Compiler (latest 2.6.x)'
   },
   {
     'url': [
-      'https://cdn.jsdelivr.net/blazecss/latest/blaze.min.css',
-      'https://cdn.jsdelivr.net/blazecss/latest/blaze.animations.min.css'
+      'https://unpkg.com/blaze/dist/blaze.min.css',
+      'https://unpkg.com/blaze/dist/blaze.colors.min.css'
     ],
     'label': 'Blaze CSS (latest)'
   },
   {
-    'url': 'https://unpkg.com/@reactivex/rxjs@5.0.0-beta.7/dist/global/Rx.umd.js',
-    'label': 'RxJS 5.0.0-beta.7',
+    'url': 'https://unpkg.com/@reactivex/rxjs@5.0.3/dist/global/Rx.js',
+    'label': 'RxJS 5.0.3',
     'group': 'RxJS'
   },
   {

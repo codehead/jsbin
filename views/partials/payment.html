@@ -65,12 +65,13 @@
     <button id="validateVat">Check</button>
     <br>
   </div>
+  <small class="fadeout">Powered by <a href="https://taxtools.io">taxtools.io</a></small>
 </section>
 
 
 <section>
   <button class="actionButton actionButton-rounded actionButton-primary actionButton-jumbo" {{#unless user}}disabled{{/unless}} id="pay">Upgrade!</button>
-  <input type="hidden" name="_csrf" value="{{csrf}}">
+  <input type="hidden" name="_csrf" value="{{token}}">
 </section>
 
 <section class="footnotes">
